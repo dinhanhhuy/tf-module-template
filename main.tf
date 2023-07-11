@@ -6,4 +6,5 @@ resource "random_string" "something" {
   length = 16
   special = true
   override_special = "/@\" "
+  
 }
